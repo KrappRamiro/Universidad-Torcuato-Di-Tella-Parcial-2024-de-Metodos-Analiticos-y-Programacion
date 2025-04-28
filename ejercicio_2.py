@@ -1,7 +1,9 @@
 def diccionario_minimal(d1: dict[str, int], d2: dict[str, int]) -> dict[str, int]:
     """
     En base a dos diccionarios (`d1` y `d2`), retorna un nuevo diccionario llamado `dm`.
+
     Las keys de `dm` son las keys que `d1` y `d2` tienen en comun.
+
     El valor de cada key es el menor valor entre `d1` y `d2`
     """
     # dm la vamos a usar para ir creando nuestro diccionario
